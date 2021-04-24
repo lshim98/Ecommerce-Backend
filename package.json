@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/lshim98/Ecommerce-Backend/issues"
   },
-  "homepage": "https://github.com/lshim98/Ecommerce-Backend#readme"
+  "homepage": "https://github.com/lshim98/Ecommerce-Backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
