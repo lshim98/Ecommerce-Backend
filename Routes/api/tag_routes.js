@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../public');
 
+// async
+
 router.get('/', async (req, res) => {
   try {
     const tagData = await Tag.findAll({
@@ -78,6 +80,19 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   };
+  
+// find all 
+
+ router.get('/', async (req, res) => {
+  try {
+    const tagData = await Tag.findAll({
+      include: [{ model: Product }],
+    });
+    res.status(200).json(tagData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 });
 
