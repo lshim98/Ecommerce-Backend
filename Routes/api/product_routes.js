@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../public');
 
+// async
+
 router.get('/', async (req, res) => {
   try {
     const productData = await Product.findAll({
@@ -127,6 +129,24 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   };
+  
+  // find all
+  
+router.get('/', (req, res) => {
+  Product.findAll({
+    attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+    include: [
+    {
+      model: Category,
+      attributes: ['id', 'category_name']
+    }
+  ]
+})
+  .then(data => res.json(data))
+  .catch((err) => {
+    console.log(err);
+    res.json(err);
+  });
 
 });
 
