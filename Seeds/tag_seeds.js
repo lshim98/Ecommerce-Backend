@@ -2,31 +2,28 @@ const { Tag } = require('../public');
 
 const tagData = [
   {
-    tag_name: 'pop music',
+    tag_name: 'rock music',
   },
   {
-    tag_name: 'red',
+    tag_name: 'pop music',
   },
   {
     tag_name: 'blue',
   },
   {
-    tag_name: 'pink',
+    tag_name: 'red',
   },
   {
-    tag_name: 'gold',
+    tag_name: 'green',
   },
   {
     tag_name: 'white',
   },
   {
-    tag_name: 'black',
+    tag_name: 'gold',
   },
   {
-    tag_name: 'pop culture reference',
-  },
-  {
-    tag_name: 'rock music',
+    tag_name: 'pop culture',
   },
 ];
 
