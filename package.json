@@ -1,0 +1,23 @@
+{
+  "name": "module-13-challenge-orm",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lshim98/Ecommerce-Backend.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lshim98/Ecommerce-Backend/issues"
+  },
+  "homepage": "https://github.com/lshim98/Ecommerce-Backend#readme"
+}
