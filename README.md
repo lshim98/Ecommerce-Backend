@@ -30,12 +30,6 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”]![13-orm-homework-demo-03](https://user-images.githubusercontent.com/76062539/115815185-80843e80-a3c4-11eb-828f-429a78b9fd5d.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core.
-
-### Insomnia
-https://user-images.githubusercontent.com/76062539/115968516-52a71300-a506-11eb-8bfb-ed8af030a867.mp4
-
-
 ### Seed the Database
 
 After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
