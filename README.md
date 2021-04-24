@@ -37,3 +37,6 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 ### Sync Sequelize to the Database on Server Start
 
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
+
+### Insomnia
+https://user-images.githubusercontent.com/76062539/115968516-52a71300-a506-11eb-8bfb-ed8af030a867.mp4
