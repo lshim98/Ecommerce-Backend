@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/lshim98/Ecommerce-Backend#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5"
   }
 }
